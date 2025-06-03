@@ -1,0 +1,34 @@
+# macOS y archivos personales
+.DS_Store
+.bashrc
+.zshrc
+.gitconfig
+.lesshst
+.anydesk.*
+
+# Archivos temporales o del sistema
+*.log
+*.trace
+*.conf
+*.tmp
+*.bak
+._*
+Thumbs.db
+ehthumbs.db
+Icon?
+Desktop.ini
+
+# VS Code y entornos
+.vscode/
+*.code-workspace
+node_modules/
+.env
+__pycache__/
+
+# Archivos innecesarios
+connection_*
+service.conf
+system.conf
+
+# Solo rastrear tus archivos .sql
+!.sql
